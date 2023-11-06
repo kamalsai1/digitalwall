@@ -1,0 +1,55 @@
+/* Styling for the form container */
+.header {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+  }
+  
+  /* Styling for form headings */
+  .header form title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for labels */
+  .header form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+  
+  /* Styling for input fields */
+  .header form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Styling for textarea */
+  .header form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Styling for submit button */
+  .header form .submit {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-submit:hover {
+    background-color: #0056b3;
+  }
+  

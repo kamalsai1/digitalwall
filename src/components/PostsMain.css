@@ -1,0 +1,28 @@
+.PostsHead{
+    display:flex;
+    flex-direction: column;
+    background-color: var(--surface-white-surface-selected, #EBFCFF);
+    min-height: 900px;
+}
+
+.PostsHead .Posts .AddButton {
+    position:absolute;
+    top:120px;
+    right:20px;
+    display: flex;
+    width: 175px;
+    height: 20px;
+    padding: 13px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: var(--interactive-interactive-one-hover, #D33852);
+    color: white;
+}
+
+.PostsHead .postList{
+    display:flex;
+    flex-wrap: wrap;
+}

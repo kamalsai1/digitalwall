@@ -1,0 +1,65 @@
+.ModalBox {
+    width: 458px;
+    height: 200px;
+    padding: 20px;
+    
+  }
+
+  .ModalBox form {
+    margin-top: 20px;
+  }
+
+  .ModalBox form label {
+    margin-bottom: 10px;
+  }
+
+  .ModalBox form input {
+    font-size: 18px; /* Adjust the font size as needed */
+  }
+
+  .ModalBox form label .color-circle {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0 10px;
+    border: 2px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .ModalBox form label .one {
+    background-color: #A7F0F9;
+  }
+  
+  .ModalBox form label .two {
+    background-color: #C5C5FC;
+  }
+  
+  .ModalBox form label .three {
+    background-color: #FFAEC0;
+  }
+  
+  .ModalBox form label .four {
+    background-color: #FC6;
+  }
+  
+  .ModalBox form label .color-circle.selected {
+    border: 2px solid black; /* Change 'border-color' to 'border' */
+  }
+
+  .ModalBox form .submitButton{
+    display: flex;
+    width: 100px;
+    height: 20px;
+    padding: 13px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: var(--interactive-interactive-one-hover, #AF273E);
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+  }
+  
